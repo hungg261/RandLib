@@ -8,7 +8,7 @@ signed main() {
 
     // ---------------- NumberGen example ----------------
     NumberGen rng;
-    rng.setSeed(12345);  // optional fixed seed for reproducibility
+    rng.setSeed(12345);
 
     cout << "Random integer [1, 10]: " << rng.Rand(1, 10) << "\n";
     cout << "Random double [0, 1]: " << rng.Rand<double>() << "\n";
