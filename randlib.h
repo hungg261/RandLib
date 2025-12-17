@@ -106,7 +106,7 @@ struct NumberGen{
         char L = largerL ? '0' : Lbound[idx];
         char R = smallerR ? '9' : Rbound[idx];
 
-        char digit = (char)Rand(L, R);
+        char digit = (char)Rand<char>(L, R);
         return string(1, digit) + __BigRand__(idx - 1,
                                               largerL || (digit > L),
                                               smallerR || (digit < R),
@@ -150,7 +150,7 @@ struct StringGen{
     //////////////////////////////////////////////////////////
 
     /// Random character in a string
-    char RandChar(const string& range){ return range[NumGen.Rand(0, (int) range.size() - 1)]; }
+    char RandChar(const string& range){ return range[NumGen.Rand<int>(0, (int) range.size() - 1)]; }
     char RandChoice(const string& object){ return RandChar(object); }
 
     /// Random string with custom characters
@@ -184,13 +184,13 @@ struct VectorGen{
     /// Pick a random element
     template<typename T>
     T Choice(const vector<T>& cont){
-        return cont[NumGen.Rand(0, (int) cont.size() - 1)];
+        return cont[NumGen.Rand<int>(0, (int) cont.size() - 1)];
     }
 
     /// Pick a random element from index L to R
     template<typename T>
     T Choice(const vector<T>& cont, int L, int R){
-        return cont[NumGen.Rand(L, R)];
+        return cont[NumGen.Rand<int>(L, R)];
     }
 
     /// Shuffle vector
