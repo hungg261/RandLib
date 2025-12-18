@@ -13,8 +13,6 @@ StressTester is a C++ template project designed for **competitive programming an
 - Weighted random selection
 - Deterministic random generation using seeds for reproducibility
 
-
-
 ## Author
 
-- hungg261
+- Hung aka. hungg261
