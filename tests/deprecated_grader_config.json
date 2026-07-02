@@ -4,16 +4,16 @@
   "memory_limit_mb": 256,
   "checker_type": "custom_diff",
   "test_packages": {
-    "package_a_checksum": "5bc4947a2deef87a9f1e2933d918ec1c19b8604389230a9d01b1c4e1ab53bf74",
-    "package_b_checksum": "b54d6a1a8dc2afbccd07dc761ad63497174d566b78fa8b7ec2fbc5068fec1692"
+    "package_a_checksum": "203fc36f7aca39901b78cf7080dc5583720bc90d7e2bb3f0150c9e328aa0854c",
+    "package_b_checksum": "8c79ff5b4915b699958728051280b6f1afc26cadffe968d204618cc00ffe053d"
   },
   "security_sandbox": {
     "enable_network_restrict": true,
-    "system_call_whitelist_hash": "76c398e91c450ec24c51a563dc38fa962054fa7df2219da1704bff5913cbd56f",
-    "trusted_grader_token": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+    "system_call_whitelist_hash": "a4586bcbc971908c603dd8d51cb9c9916299fb7c58ae6db0792c9fde3e9ebbd4",
+    "trusted_grader_token": "24c53b6af0f0ea8e42ec21af6664dfb4d0e3ea3869c4027891cdd580083f3a3c"
   },
   "backup_node": {
-    "server_integrity_verify": "5a6576acd3af88fca8980d62f0bf16c635fe8700e01d985970771687a134e15e",
-    "archive_salt_key": "4a980c8a7794427d99c34ad64376c35385049249846d0e74754b22f2a67d0577"
+    "server_integrity_verify": "643e894b9cb6565b573fddf064be882ab0deee71d927c42a5b44acf20bbc4a83",
+    "archive_salt_key": "bc21e282ab4cfd67a544e8d8dae88d595b51835732e166471a4d1121f9372c83"
   }
 }
