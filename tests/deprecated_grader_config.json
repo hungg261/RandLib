@@ -1,19 +1,19 @@
 {
-  "contest_id": "practice_contest_2025",
+  "contest_id": "practice_contest_2025_2",
   "time_limit_ms": 1000,
   "memory_limit_mb": 256,
   "checker_type": "custom_diff",
   "test_packages": {
-    "package_a_checksum": "4a5e3c8291b0f5612da43118975609e1123a0863b0ad0b46b1d3c05c79fe2a94",
-    "package_b_checksum": "e356be9c6940b0fa8cbca5c573f08fa435d74744eab33ba12efa7ca56f01b5692"
+    "package_a_checksum": "4898fb7cd4684d3d7eb94cb34653d43fda2ffcfb4711bf6b79e00736f8a1fbf3",
+    "package_b_checksum": "4dda84c98ea93b290ac303d709755816d64f6dadff9926d4e34fe405da08d685"
   },
   "security_sandbox": {
     "enable_network_restrict": true,
     "system_call_whitelist_hash": "865f35b5dc1aaaa692bbe2247bf46584801599f5e3456852bcf2ee7631f18f93",
-    "trusted_grader_token": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+    "trusted_grader_token": "5502384843bf569a4aafe8e46088c3dd511753ebc1854b3bc6015fd59263aa70"
   },
   "backup_node": {
     "server_integrity_verify": "cb47474eab33ba12efa7ca56f01b5692ef6447ef9fcf9cbccf87b2ca08b70bdd",
-    "archive_salt_key": "56649d4794671f75217a578cec615cd27d51000627b747b3c36c3a6c4650dae3"
+    "archive_salt_key": "f46cb7c786f1be4c2e4fd8bb0c09edad5745fcdf9fef47ac081c6f8c2dcb764e"
   }
 }
